@@ -1,0 +1,172 @@
+Script started on Sat 09 Nov 2019 04:44:52 AM EST
+runlin@itserver6:~/cs410/hw2$ make
+g++ -std=c++11 -c hw2.cpp
+g++ -std=c++11 -o hw2 hw2.o
+runlin@itserver6:~/cs410/hw2$ ./hw2
+
+Greetings dear user! This program is called "Krusty's Operation Atlantis Escape!",
+it simulates Krusty's mission to escape from Atlantis!
+Programmed by Run Lin.
+
+Enter the seed number to generate its randomness (you should enter 37, blank will result in true randomness: 37
+CURRENT CREATURE: 1, 5	Bob Blobfish
+Bob Blobfish said:	Let me give you my card...my phone number is on the back
+STACK AFTER COMPARISON:
+(1, 5) || (5, 1)	Bob Blobfish
+
+CURRENT CREATURE: 6, 2	Walter Whale
+Walter Whale said:	Better take some paper towels if you visit the blobfish
+STACK AFTER COMPARISON:
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+
+CURRENT CREATURE: 4, 2	Sylvia Seahorse
+Sylvia Seahorse said:	Don't trust the salmon!!!
+STACK AFTER COMPARISON:
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+
+CURRENT CREATURE: 1, 3	Sheila Shellfish
+Sheila Shellfish said:	Duuude, totally love the clown head and human body combo!
+STACK AFTER COMPARISON:
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 8, 4	Doris Dolphin
+Doris Dolphin said:	Hey man, got any sea-weed?
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 2, 6	Wanda Walrus
+Wanda Walrus said:	Better take some paper towels if you visit the blobfish
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 3, 1	Stanley Sardine
+Stanley Sardine said:	Here's some advice:  the shark wants you to be his chum!
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 1, 10	Janie Jellyfish
+Janie Jellyfish said:	You look fishy to me; or are you clowning around?
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 8, 4	Sammy Shark
+Sammy Shark said:	Let me give you my card...my phone number is on the back
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 8, 4	Sammy Shark
+Sammy Shark said:	You look fishy to me; or are you clowning around?
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 3, 1	Stanley Sardine
+Stanley Sardine said:	You just keep sinking, sinking, sinking,...
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 1, 5	Bob Blobfish
+Bob Blobfish said:	Don't trust the salmon!!!
+STACK AFTER COMPARISON:
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 9, 5	Mark Herrings
+Mark Herrings said:	You just keep sinking, sinking, sinking,...
+STACK AFTER COMPARISON:
+(9, 5) || (5, 9)	Mark Herrings
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 5, 3	Oscar Tilapia
+Oscar Tilapia said:	Whazzup?
+STACK AFTER COMPARISON:
+(9, 5) || (5, 9)	Mark Herrings
+(8, 4) || (4, 8)	Doris Dolphin
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+CURRENT CREATURE: 3, 7	Daniel Octopus
+Daniel Octopus said:	You look fishy to me; or are you clowning around?
+STACK AFTER COMPARISON:
+(9, 5) || (5, 9)	Mark Herrings
+(8, 4) || (4, 8)	Doris Dolphin
+(3, 7) || (7, 3)	Daniel Octopus
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+FINAL STACK CONTENT:
+(9, 5) || (5, 9)	Mark Herrings
+(8, 4) || (4, 8)	Doris Dolphin
+(3, 7) || (7, 3)	Daniel Octopus
+(6, 2) || (2, 6)	Walter Whale
+(1, 5) || (5, 1)	Bob Blobfish
+(1, 3) || (3, 1)	Sheila Shellfish
+
+Krusty found all 6 stackable cards
+
+
+CREATURES COLLECTED:
+Wanda Walrus
+Stanley Sardine
+Sylvia Seahorse
+Janie Jellyfish
+Doris Dolphin
+Bob Blobfish
+Sammy Shark
+Walter Whale
+Sheila Shellfish
+Daniel Octopus
+Mark Herrings
+Oscar Tilapia
+
+Krusty had only found 12 creatures
+
+Krusty says: I'M GETTING THE **** OUTTA HERE!!! SAYONARA ATLANTIANS!!!!
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+During the times when Krusty was trying to get out of Atlanta, he had walked 6 miles.
+Why don't you decide his weight(lbs), height(ft), and temperature(*Celcius) at Atlanta
+so his Calories burned is calculated;
+weight(lbs): 165.5
+height(ft): 6.4
+temperature(*Celcius): 36
+Krusty's total calories burned: 1011.83 Cals
+runlin@itserver6:~/cs410/hw2$ exit
+exit
+
+Script done on Sat 09 Nov 2019 04:45:56 AM EST
